@@ -9,9 +9,9 @@ public class Main {
 
 	    StringBuilder s3 = new StringBuilder("Hello");
 
-	    s.concat(" World");
-	    s2.append(" World");
-	    s3.append(" World");
+	    s.concat(" World"); // Hello
+	    s2.append(" World"); // Hello World
+	    s3.append(" World"); // Hello World
 
         System.out.println(s);
         System.out.println(s2);
